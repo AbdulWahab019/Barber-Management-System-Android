@@ -12,9 +12,9 @@ This is a working Barber Management System using local database for android Syst
     - View Employees.
     - Remove Employees.
     
-  - This application also provides an insight of employees salary with respect to working hours.'
+  - This application also provides an insight of employees salary with respect to working hours.
   
-  **Upcoming Update:**
-    - Adding support for Online database(Firebase).
+**Upcoming Update:**
+  - Adding support for Online database(Firebase).
   
  **Just Import this project in Android Studio, Build it, and you're good to go.**
