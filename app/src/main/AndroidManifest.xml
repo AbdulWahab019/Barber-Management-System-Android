@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.software">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Calculation"
+            android:label="@string/title_activity_calculation"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.software.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Worker.addWorkers"
+            android:label="@string/title_activity_add_workers"
+            android:parentActivityName=".Worker.Workers_Main"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.software.Worker.Workers_Main" />
+        </activity>
+        <activity
+            android:name=".Worker.deleteWorkers"
+            android:label="@string/delete_workers"
+            android:parentActivityName=".Worker.Workers_Main"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.software.Worker.Workers_Main" />
+        </activity>
+        <activity
+            android:name=".Worker.viewWorkers"
+            android:label="@string/view_workers"
+            android:parentActivityName=".Worker.Workers_Main"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.software.Worker.Workers_Main" />
+        </activity>
+        <activity
+            android:name=".Worker.Workers_Main"
+            android:label="@string/title_activity_workers__main"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.software.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Bill.AddBill"
+            android:label="@string/title_activity_add_bill"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Bill.ViewBill"
+            android:label="ViewBill"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Bill.DeleteBill"
+            android:label="DeleteBill"
+            android:theme="@style/AppTheme.NoActionBar" />
+    </application>
+
+</manifest>
